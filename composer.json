@@ -3,6 +3,15 @@
     "description": "Discord Webhook notifications channel for Laravel 5.8",
     "homepage": "https://github.com/ccoeder/discord-webhook",
     "license": "MIT",
+
+    "repositories": [{
+
+            "type": "vcs",
+            "url": "https://github.com/aranar-pro/discord-webhook"
+
+
+    }],
+
     "authors": [
         {
             "name": "H. Can Yildirim",
@@ -13,7 +22,8 @@
         "php": ">=7.0.0",
         "guzzlehttp/guzzle": "^6.3|^7.0.1",
         "illuminate/notifications": "5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*",
-        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*"
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*|5.8.*",
+        "aranar-pro/discord-webhook": "dev-master"
     },
     "require-dev": {
         "mockery/mockery": "0.9.*",
